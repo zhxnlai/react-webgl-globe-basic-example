@@ -1,6 +1,6 @@
 {
   "name": "react-webgl-globe-basic-example",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "WebGL Globe basic example in react",
   "main": "build/app.js",
   "scripts": {
@@ -32,7 +32,7 @@
       ]
     ]
   },
-  
+
   "devDependencies": {
     "browser-sync": "^1.7.2",
     "browserify": "^6.3.3",
