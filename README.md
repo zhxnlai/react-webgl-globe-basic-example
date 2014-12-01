@@ -1,4 +1,4 @@
 react-webgl-globe-example
 =========================
 
-WebGL Globe example in react
+[WebGL Globe](https://github.com/dataarts/webgl-globe) example in react
