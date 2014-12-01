@@ -10,7 +10,7 @@ react-webgl-globe-basic-example is available as an [npm package](https://www.npm
 npm install react-webgl-globe-basic-example
 ~~~
 
-Building the site
+Building the example site
 ---
 After install all dependencies:
 ~~~
