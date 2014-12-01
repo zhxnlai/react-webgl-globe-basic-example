@@ -1,13 +1,13 @@
 react-webgl-globe-basic-example
 =========================
 
-[WebGL Globe](https://github.com/dataarts/webgl-globe) example in react
+[WebGL Globe](https://github.com/dataarts/webgl-globe) basic example in react. Here is a [Demo](http://zhxnlai.github.io/react-webgl-globe-basic-example)
 
 Installation
 ---
 react-webgl-globe-basic-example is available as an [npm package](https://www.npmjs.org/package/react-webgl-globe-basic-example).
 ~~~sh
-npm install material-ui
+npm install react-webgl-globe-basic-example
 ~~~
 
 Building the site
@@ -18,7 +18,7 @@ npm install
 npm install -g gulp
 ~~~
 
-Then, you can run the local server:
+You can run the local server by:
 ~~~
 gulp
 ~~~
