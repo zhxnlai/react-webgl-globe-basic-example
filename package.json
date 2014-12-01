@@ -1,0 +1,55 @@
+{
+  "name": "react-webgl-globe-basic-example",
+  "version": "0.0.1",
+  "description": "WebGL Globe basic example in react",
+  "main": "build/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zhxnlai/react-webgl-globe-basic-example.git"
+  },
+  "keywords": [
+    "react-component",
+    "webgl",
+    "globe",
+    "react"
+  ],
+  "author": "Zhixuan Lai <zhxnlai@gmail.com> (https://zhxnlai.github.io/)",
+  "license": "Apache",
+  "bugs": {
+    "url": "https://github.com/zhxnlai/react-webgl-globe-basic-example/issues"
+  },
+  "homepage": "https://github.com/zhxnlai/react-webgl-globe-basic-example",
+  "browserify": {
+    "transform": [
+      [
+        "reactify",
+        {
+          "es6": true
+        }
+      ]
+    ]
+  },
+  
+  "devDependencies": {
+    "browser-sync": "^1.7.2",
+    "browserify": "^6.3.3",
+    "gulp": "^3.8.10",
+    "gulp-browserify": "^0.5.0",
+    "gulp-notify": "^2.0.1",
+    "gulp-streamify": "0.0.5",
+    "gulp-uglify": "^1.0.1",
+    "gulp-util": "^3.0.1",
+    "pretty-hrtime": "^0.2.2",
+    "reactify": "^0.17.1",
+    "require-dir": "^0.1.0",
+    "underscore": "^1.7.0",
+    "vinyl-source-stream": "^1.0.0",
+    "watchify": "^2.1.1"
+  },
+  "dependencies": {
+    "react": "^0.12.1"
+  }
+}
