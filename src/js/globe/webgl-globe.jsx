@@ -38,6 +38,7 @@ var WebGLGlobe = React.createClass({
     return false;
   },
   componentDidMount: function() {
+    var _this = this;
     var container = this.refs.container.getDOMNode();
     if(!Detector.webgl){
       Detector.addGetWebGLMessage();
@@ -53,19 +54,19 @@ var WebGLGlobe = React.createClass({
       var settime = function(globe, t) {
         return function() {
           new TWEEN.Tween(globe).to({time: t/years.length},500).easing(TWEEN.Easing.Cubic.EaseOut).start();
-          var y = this.refs[('year'+years[t])].getDOMNode();
+          var y = _this.refs[('year'+years[t])].getDOMNode();
           if (y.getAttribute('class') === 'year active') {
             return;
           }
           var yy = document.getElementsByClassName('year');
-          for(i=0; i<yy.length; i++) {i
+          for(i=0; i<yy.length; i++) {
             yy[i].setAttribute('class','year');
           }
           y.setAttribute('class', 'year active');
         };
       };
 
-      for(var i = 0; i<years.length; i++) {
+      for(i = 0; i<years.length; i++) {
         var y = this.refs[('year'+years[i])].getDOMNode();
         y.addEventListener('mouseover', settime(globe,i), false);
       }
